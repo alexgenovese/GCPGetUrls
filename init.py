@@ -30,7 +30,7 @@ def list_gcs_folder_urls(bucket_name, folder_prefix, key_path, output_file):
 
 # Esempio di utilizzo
 bucket_name = "tryonyou"
-folder_prefix = "xprocess/generated-retro/"  # Assicurati di includere la barra finale se necessario
+folder_prefix = "_BASE_MODELS/model-base/"  # Assicurati di includere la barra finale se necessario
 key_path = "./google-storage-auth.json"
 output_file = "urls.txt"
 
